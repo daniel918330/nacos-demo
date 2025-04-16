@@ -28,6 +28,12 @@ spring:
             - Path=/consumer/**
           filters:
             - StripPrefix=1
+        - id: service-dataetler
+          uri: lb://service-dataetler
+          predicates:
+            - Path=/dataetler/**
+          filters:
+            - StripPrefix=1
 
 #management:
 #  endpoints:
