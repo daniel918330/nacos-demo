@@ -12,6 +12,7 @@
     <module>service-provide</module>
     <module>service-consumer</module>
     <module>api-gateway</module>
+    <module>service-dataetler</module>
   </modules>
 
   <properties>

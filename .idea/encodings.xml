@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/api-gateway/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-dataetler/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-dataetler/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-provide/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-provide/src/main/resources" charset="UTF-8" />
   </component>
