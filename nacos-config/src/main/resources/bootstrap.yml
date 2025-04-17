@@ -1,0 +1,31 @@
+server:
+  port: 8080
+spring:
+  profiles:
+    active: dev
+  application:
+    name: cloud-producer-server
+  config:
+    import: "optional:nacos:${spring.application.name}"
+  cloud:
+    nacos:
+      config:
+        serverAddr: ${nacos.host}
+        username:
+        password:
+        prefix:
+        namespace: ${nacos.namespace}
+        file-extension: yaml
+        extension-configs:
+          - data-id: cloud-producer-server-dev
+            group: DEFAULT_GROUP
+            refresh: true
+      discovery:
+        serverAddr: ${nacos.host}
+        namespace: ${nacos.namespace}
+
+nacos:
+  host: localhost:18848
+  namespace: dev
+
+#  http://localhost:8080/provider/getNacosConfig
